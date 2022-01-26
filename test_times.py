@@ -4,6 +4,7 @@ import random
 import json
 import requests
 import socket
+import os
 
 def test_given_input():
     large = time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00")
